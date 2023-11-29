@@ -9,8 +9,7 @@ public class Orador {
 	private String apellido;
 	private String mail;
 	private String tema;
-	private LocalDateTime fechaAlta;
-	
+	private LocalDateTime fechaAlta;	
 
 	public Orador(Long id, String nombre, String apellido, String mail, String tema, LocalDateTime fechaAlta) {		
 		this.id = id;
@@ -82,7 +81,6 @@ public class Orador {
 	public void setFechaAlta(LocalDateTime fechaAlta) {
 		this.fechaAlta = fechaAlta;
 	}
-
 
 }
 
